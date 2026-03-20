@@ -1,0 +1,41 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0a0a0a;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Smooth Glow */
+.glow {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0, 150, 255, 0.15), transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.15s ease;
+}
+
+/* Content */
+.hero-content {
+  text-align: center;
+  z-index: 2;
+}
+
+/* Name */
+.hero-title {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Subtitle */
+.hero-sub {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #888;
+}

@@ -1,0 +1,30 @@
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0a0a0a;
+}
+
+/* Name */
+.landing-title {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+/* Button */
+.enter-btn {
+  margin-top: 20px;
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.enter-btn:hover {
+  color: white;
+  transform: translateX(5px);
+}
