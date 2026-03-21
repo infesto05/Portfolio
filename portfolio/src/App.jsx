@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Transition from "./components/Transition";
-import Projects from "./components/Projects";
+import Projects from "./components/temp";
 import Skills from "./components/Skills";
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
